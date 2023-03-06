@@ -1,0 +1,5 @@
+requests
+netifaces
+cryptography
+pefile
+asn1crypto
