@@ -1,0 +1,10 @@
+ -*- coding: utf-8 -*-
+
+
+Changes with v1.0.0-230306
+
+*) First Release
+- To extract certificate information from arbitrary files, use the -> https://github.com/password123456/py_certificate_extractor. it may help you.
+- If a driver (.sys) file is signed with a dual certificate (sha1, sha256 code signing), the sha256 certificate information is not scanned correctly. 
+- This seems to be caused by the deprecation of sha1 certificates, which we are still checking.(We don't think this is a problem, and if it is, we will fix it).)
+- these are Antivirus driver files, legitimate (healthy) drivers on the Windows system, and driver files that are certified by Microsoft and have a dual certificate (SHA1, SHA256).
